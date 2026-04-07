@@ -1,43 +1,35 @@
 {
-  "name": "GameChanger — Прокачай Себя",
+  "name": "GameChanger - Прокачай Себя",
   "short_name": "GameChanger",
   "description": "Система прокачки персонажа — преврати свою жизнь в RPG",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0a0a0f",
   "theme_color": "#00d4ff",
-  "orientation": "portrait-primary",
-  "scope": ".",
+  "orientation": "portrait",
   "lang": "ru",
+  "scope": ".",
   "icons": [
     {
-      "src": "./icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
   ],
-  "categories": ["productivity", "lifestyle", "games"],
+  "categories": ["lifestyle", "productivity", "games"],
   "screenshots": [
     {
-      "src": "./screenshot-1.png",
-      "sizes": "1280x720",
+      "src": "./icon-512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "form_factor": "wide",
-      "label": "Профиль персонажа"
-    },
-    {
-      "src": "./screenshot-2.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Ежедневные квесты"
+      "form_factor": "narrow"
     }
   ],
   "shortcuts": [
@@ -45,24 +37,19 @@
       "name": "Профиль",
       "short_name": "Профиль",
       "description": "Открыть профиль персонажа",
-      "url": "./index.html?page=profile",
-      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
+      "url": "./index.html#page=profile"
     },
     {
-      "name": "Квесты",
-      "short_name": "Квесты",
+      "name": "Ежедневно",
+      "short_name": "Ежедневно",
       "description": "Открыть ежедневные квесты",
-      "url": "./index.html?page=daily",
-      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
+      "url": "./index.html#page=daily"
     },
     {
-      "name": "Недельный план",
-      "short_name": "План",
-      "description": "Открыть недельный план",
-      "url": "./index.html?page=weekly",
-      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
+      "name": "Цели",
+      "short_name": "Цели",
+      "description": "Открыть список целей",
+      "url": "./index.html#page=goals"
     }
-  ],
-  "related_applications": [],
-  "prefer_related_applications": false
+  ]
 }
